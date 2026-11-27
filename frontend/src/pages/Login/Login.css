@@ -1,0 +1,43 @@
+a{
+  color: blue;
+  font-weight: bolder;
+font-size: larger;
+}
+
+.login-page h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+ 
+
+p {
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  font-size: larger;
+
+}
+
+.button_Login {
+    background-color: #0066ff;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button_Login:hover {
+  background-color:rgb(255, 0, 0);  
+}
+
+
+.register_button{
+  padding: 6px 12px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #1206f0;
+
+}

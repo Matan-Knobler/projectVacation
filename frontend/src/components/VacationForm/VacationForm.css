@@ -1,0 +1,67 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 2px solid white;
+  border-radius: 8px;
+  background-color: rgb(242 243 244 / 67%);
+}
+
+.form h1 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.form input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bolder;
+
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Cancel_button{
+  padding: 0.5rem 1rem;
+  background-color: #d80808;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+.Add_button{
+  padding: 0.5rem 1rem;
+  background-color: #18f21f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+
+/* Hover styles for the Cancel_button */
+.Cancel_button:hover {
+background-color: #ff0000;
+}
+
+/* Hover styles for the Add_button */
+.Add_button:hover {
+background-color: #0bbf00;
+}
